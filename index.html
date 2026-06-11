@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h1>Quiz App</h1>
+
+    <p>1. What is the capital of India?</p>
+    <label><input type="radio" name="q1" value="Delhi"> Delhi</label>
+    <label><input type="radio" name="q1" value="Mumbai"> Mumbai</label>
+    <label><input type="radio" name="q1" value="Chennai"> Chennai</label>
+
+    <p>2. How many days are there in a week?</p>
+    <label><input type="radio" name="q2" value="7"> 7</label>
+    <label><input type="radio" name="q2" value="6"> 6</label>
+    <label><input type="radio" name="q2" value="5"> 5</label>
+
+    <p>3. Which language is used for web page structure?</p>
+    <label><input type="radio" name="q3" value="HTML"> HTML</label>
+    <label><input type="radio" name="q3" value="CSS"> CSS</label>
+    <label><input type="radio" name="q3" value="Python"> Python</label>
+
+    <button onclick="checkQuiz()">Submit</button>
+
+    <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
